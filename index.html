@@ -5,153 +5,107 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="ZiMi aanvaardt voorlopig geen nieuwe boekingen meer. Voor verdere vragen kan je ons via WhatsApp bereiken als je ons nummer al hebt."
+      content="Geen opvang meer mogelijk wegens Mina's gezondheid. ZiMi aanvaardt geen nieuwe boekingen meer vanaf de zomerperiode 2026."
     />
-    <meta property="og:title" content="ZiMi | Voorlopig geen opvang meer mogelijk" />
+    <meta property="og:title" content="ZiMi | Geen opvang meer mogelijk wegens Mina's gezondheid" />
     <meta
       property="og:description"
-      content="ZiMi aanvaardt voorlopig geen nieuwe boekingen meer. Voor verdere vragen kan je ons via WhatsApp bereiken als je ons nummer al hebt."
+      content="ZiMi aanvaardt geen nieuwe boekingen meer vanaf de zomerperiode 2026 en de voorzienbare toekomst."
     />
     <meta property="og:type" content="website" />
-    <title>ZiMi | Voorlopig geen opvang meer mogelijk</title>
-    <link
-      rel="icon"
-      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%232f4d43'/%3E%3Cpath fill='%23fff8f1' d='M18 31.3c-3.3 0-6-3.5-6-7.8s2.7-7.8 6-7.8 6 3.5 6 7.8-2.7 7.8-6 7.8Zm14-7.7c-3.3 0-6-3.5-6-7.8S28.7 8 32 8s6 3.5 6 7.8-2.7 7.8-6 7.8Zm14 7.7c-3.3 0-6-3.5-6-7.8s2.7-7.8 6-7.8 6 3.5 6 7.8-2.7 7.8-6 7.8ZM23.9 54c-4.8 0-8.7-4-8.7-9 0-6.7 7.3-12.8 18.5-12.8S52.4 38.3 52.4 45c0 5-4 9-8.8 9-2.7 0-5.2-1-7.2-2.5-1.1-.8-2.2-1.2-3.2-1.2s-2 .4-3.2 1.2c-1.8 1.4-4.4 2.5-6.1 2.5Z'/%3E%3C/svg%3E"
-    />
+    <title>ZiMi | Geen opvang meer mogelijk wegens Mina's gezondheid</title>
     <style>
       :root {
-        --cream: rgba(255, 251, 245, 0.94);
-        --cocoa: #4c2f22;
+        --cream: #fffaf2;
+        --paper: rgba(255, 253, 248, 0.96);
+        --ink: #4c2f22;
+        --pine: #2f4d43;
         --copper: #bf7b4a;
         --sage: #8ca386;
-        --pine: #2f4d43;
-        --mist: rgba(255, 255, 255, 0.72);
-        --line: rgba(76, 47, 34, 0.12);
+        --line: rgba(76, 47, 34, 0.14);
         --shadow: 0 28px 70px rgba(70, 40, 24, 0.16);
-        --font-serif: "Iowan Old Style", "Palatino Linotype", "Book Antiqua",
-          "URW Palladio L", Georgia, serif;
-        --font-sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-          sans-serif;
+        --serif: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+        --sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       }
 
       * {
         box-sizing: border-box;
       }
 
-      html {
-        min-height: 100%;
-      }
-
       body {
         margin: 0;
         min-height: 100vh;
         min-height: 100svh;
-        font-family: var(--font-sans);
-        color: var(--cocoa);
+        display: grid;
+        place-items: center;
+        padding: clamp(1rem, 4vw, 2.5rem);
+        font-family: var(--sans);
+        color: var(--ink);
         background:
-          radial-gradient(circle at top left, rgba(191, 123, 74, 0.18), transparent 34%),
-          radial-gradient(circle at top right, rgba(140, 163, 134, 0.2), transparent 30%),
-          linear-gradient(160deg, #fff8ee 0%, #f7efdf 46%, #efe5d3 100%);
-      }
-
-      body::before,
-      body::after {
-        content: "";
-        position: fixed;
-        z-index: 0;
-        border-radius: 999px;
-        pointer-events: none;
-        filter: blur(18px);
-        opacity: 0.75;
-      }
-
-      body::before {
-        width: 14rem;
-        height: 14rem;
-        left: -4rem;
-        bottom: 3rem;
-        background: rgba(191, 123, 74, 0.18);
-      }
-
-      body::after {
-        width: 12rem;
-        height: 12rem;
-        right: -2rem;
-        top: 4rem;
-        background: rgba(140, 163, 134, 0.2);
+          radial-gradient(circle at 12% 16%, rgba(191, 123, 74, 0.18), transparent 32%),
+          radial-gradient(circle at 86% 12%, rgba(140, 163, 134, 0.22), transparent 30%),
+          linear-gradient(155deg, #fff8ee 0%, #f7efdf 48%, #efe5d3 100%);
       }
 
       main {
-        position: relative;
-        z-index: 1;
-        min-height: 100vh;
-        min-height: 100svh;
-        display: grid;
-        place-items: center;
-        padding: 2rem;
-      }
-
-      .panel {
         width: min(100%, 46rem);
-        padding: clamp(1.75rem, 4vw, 3rem);
+        padding: clamp(1.5rem, 5vw, 3rem);
         border: 1px solid var(--line);
-        border-radius: 2rem;
-        background:
-          linear-gradient(180deg, rgba(255, 252, 247, 0.97), rgba(249, 242, 232, 0.92)),
-          var(--cream);
+        border-radius: 1.5rem;
+        background: var(--paper);
         box-shadow: var(--shadow);
-        backdrop-filter: blur(10px);
       }
 
       .brand {
-        display: inline-flex;
-        padding: 0.8rem 1rem;
-        border-radius: 1.4rem;
-        background: var(--mist);
-        border: 1px solid rgba(76, 47, 34, 0.08);
+        display: inline-grid;
+        grid-template-columns: auto auto;
+        align-items: center;
+        gap: 0.65rem;
+        color: var(--pine);
+        font-family: var(--serif);
+        font-size: clamp(2.2rem, 7vw, 4rem);
+        font-weight: 700;
+        letter-spacing: 0;
+        line-height: 1;
       }
 
-      .brand img {
-        display: block;
-        width: min(100%, 16rem);
-        height: auto;
+      .brand-mark {
+        width: 0.82em;
+        height: 0.82em;
+        border-radius: 50% 50% 44% 44%;
+        background:
+          radial-gradient(circle at 30% 22%, var(--cream) 0 12%, transparent 13%),
+          radial-gradient(circle at 58% 18%, var(--cream) 0 11%, transparent 12%),
+          radial-gradient(circle at 76% 38%, var(--cream) 0 10%, transparent 11%),
+          radial-gradient(circle at 42% 58%, var(--cream) 0 19%, transparent 20%),
+          var(--copper);
       }
 
       h1 {
-        margin: 1.75rem 0 1rem;
-        font-family: var(--font-serif);
-        font-size: clamp(2.15rem, 5vw, 3.6rem);
-        line-height: 1.02;
-        letter-spacing: -0.03em;
-        max-width: 12ch;
+        margin: 1.8rem 0 1rem;
+        max-width: 13ch;
+        font-family: var(--serif);
+        font-size: clamp(2.1rem, 6vw, 3.85rem);
+        line-height: 1.04;
+        letter-spacing: 0;
       }
 
       .rule {
         width: 5.5rem;
         height: 0.4rem;
         border-radius: 999px;
-        background: linear-gradient(90deg, var(--copper), rgba(140, 163, 134, 0.85));
+        background: linear-gradient(90deg, var(--copper), var(--sage));
       }
 
       p {
         margin: 1.5rem 0 0;
         font-size: clamp(1rem, 2vw, 1.13rem);
         line-height: 1.85;
-        color: rgba(76, 47, 34, 0.92);
-      }
-
-      .contact-note {
-        color: var(--pine);
-        font-weight: 600;
       }
 
       @media (max-width: 640px) {
         main {
-          padding: 1.1rem;
-        }
-
-        .panel {
-          border-radius: 1.6rem;
+          border-radius: 1.1rem;
         }
 
         h1 {
@@ -161,29 +115,22 @@
     </style>
   </head>
   <body>
-    <main>
-      <section class="panel" aria-labelledby="closing-title">
-        <div class="brand" aria-label="ZiMi">
-          <img
-            src="data:image/png;base64,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"
-            alt="ZiMi logo"
-          />
-        </div>
+    <main aria-labelledby="closing-title">
+      <div class="brand" aria-label="ZiMi">
+        <span>ZiMi</span>
+        <span class="brand-mark" aria-hidden="true"></span>
+      </div>
 
-        <h1 id="closing-title">Voorlopig geen opvang meer mogelijk</h1>
-        <div class="rule" aria-hidden="true"></div>
-        <p>
-          Wegens gezondheidsproblemen bij onze hond Mina zijn we helaas niet langer in staat om
-          nieuwe boekingen te aanvaarden vanaf de zomerperiode 2026 en de voorzienbare toekomst.
-          We zijn een kleine, huiselijke opvang waarbij Mina centraal staat — en haar welzijn
-          staat voor ons op de eerste plaats. We kunnen op dit moment geen betrouwbare opvang
-          garanderen en willen jullie dan ook aanraden om elders een vaste oplossing te zoeken.
-          Bedankt voor jullie begrip en het jarenlange vertrouwen. — Tamara, Merlijn &amp; Mina 🐾
-        </p>
-        <p class="contact-note">
-          Voor verdere vragen kan je ons nog bereiken via WhatsApp als je ons nummer al hebt.
-        </p>
-      </section>
+      <h1 id="closing-title">Geen opvang meer mogelijk wegens Mina's gezondheid</h1>
+      <div class="rule" aria-hidden="true"></div>
+      <p>
+        Wegens gezondheidsproblemen bij onze hond Mina zijn we helaas niet langer in staat om
+        nieuwe boekingen te aanvaarden vanaf de zomerperiode 2026 en de voorzienbare toekomst.
+        We zijn een kleine, huiselijke opvang waarbij Mina centraal staat — en haar welzijn
+        staat voor ons op de eerste plaats. We kunnen op dit moment geen betrouwbare opvang
+        garanderen en willen jullie dan ook aanraden om elders een vaste oplossing te zoeken.
+        Bedankt voor jullie begrip en het jarenlange vertrouwen. — Tamara, Merlijn &amp; Mina 🐾
+      </p>
     </main>
   </body>
 </html>
